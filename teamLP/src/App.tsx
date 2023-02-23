@@ -274,7 +274,7 @@ function App() {
             ></Box>
         </Center>
         <Center
-          marginBottom={"120px"}
+          marginBottom={"80px"}
         >
           <Box
             as='img'
@@ -283,7 +283,7 @@ function App() {
           ></Box>
         </Center>
         <Center
-          marginBottom={"120px"}
+          marginBottom={"80px"}
         >
           <Box
             as='img'
@@ -291,7 +291,9 @@ function App() {
             w={"80%"}
           ></Box>
         </Center>
-        <Center>
+        <Center
+          // marginBottom={"300px"}
+        >
           <Box
             as='img'
             src='./public/img/グループ 5419.png'
@@ -299,14 +301,63 @@ function App() {
           ></Box>
         </Center>
       </Box>
-      <Flex
-        justifyContent={"center"}
-      >
-        <Box
+      <Box>
+          <Flex
+            justifyContent={"center"}
+            position={"relative"}
+          >
+            <Box
+              as='img'
+              src='./public/img/グループ 5427.png'
+              w={"300px"}
+              h={"350px"}
+              position={"absolute"}
+              top={"220px"}
+              left={"100px"}
+              zIndex={"1"}
+            ></Box>
+            <Box
+              as='img'
+              src='./public/img/グループ 5425.png'
+              w={"400px"}
+              h={"400px"}
+              position={"absolute"}
+              top={"210px"}
+              right={"10px"}
+              zIndex={"1"}
+            ></Box>
+          </Flex>
+        <Center
+          position={"relative"}
+          marginBottom={"100px"}
+          >
+          <Box
           as='img'
           src='./public/img/グループ 5426.png'
-        ></Box>
-      </Flex>
+          w={"400px"}
+          position={"absolute"}
+          top={"300px"}
+          ></Box>
+          </Center>
+          <Center
+            position={"relative"}
+          >
+          <Box
+          as='img'
+          src='./public/img/グループ 5428.png'
+          w={"700px"}
+          position={"absolute"}
+          top={"400px"}
+          ></Box>
+        </Center>
+        <Center>
+          <Box
+            as='img'
+            src='./public/img/グループ 5371.png'
+            h={"1000px"}
+            ></Box>
+        </Center>
+      </Box>
     </Box>
   )
 }
