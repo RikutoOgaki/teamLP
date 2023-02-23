@@ -238,7 +238,7 @@ function App() {
             position={"absolute"}
             bottom={"40px"}
             ></Box>
-                        <Flex 
+              <Flex 
               justifyContent={"center"}
               position={"relative"}
               >
@@ -264,10 +264,49 @@ function App() {
             ></Box>
           </Flex>
         </Box>
-        <Box>
-          
-        </Box>
+        <Center
+          marginTop={"60px"}
+          marginBottom={"200px"}
+        >
+          <Box
+            as='img'
+            src='./public/img/グループ 5421.png'
+            ></Box>
+        </Center>
+        <Center
+          marginBottom={"120px"}
+        >
+          <Box
+            as='img'
+            src='./public/img/グループ 5415.png'
+            w={"80%"}
+          ></Box>
+        </Center>
+        <Center
+          marginBottom={"120px"}
+        >
+          <Box
+            as='img'
+            src='./public/img/グループ 5420.png'
+            w={"80%"}
+          ></Box>
+        </Center>
+        <Center>
+          <Box
+            as='img'
+            src='./public/img/グループ 5419.png'
+            w={"80%"}
+          ></Box>
+        </Center>
       </Box>
+      <Flex
+        justifyContent={"center"}
+      >
+        <Box
+          as='img'
+          src='./public/img/グループ 5426.png'
+        ></Box>
+      </Flex>
     </Box>
   )
 }
